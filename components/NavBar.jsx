@@ -4,10 +4,28 @@ import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaDiscord, FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { useRouter } from 'next/router'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false)
+  const [navBg, setNavBg] = useState('#ecf0f3')
+  const [linkColor, setLinkColor] = useState('#1f2937')
+  const router = useRouter()
+
+  useEffect(() => {
+    if (
+      router.asPath === '/cerveshop' ||
+      router.asPath === '/studytimer' ||
+      router.asPath === '/dragonball'
+    ) {
+      setNavBg('transparent')
+      setLinkColor('#f8f8f8')
+    } else {
+      setNavBg('#ecf0f3')
+      setLinkColor('#1f2937')
+    }
+  }, [router])
 
   const handleNav = () => {
     setNav(!nav)
@@ -26,6 +44,7 @@ const NavBar = () => {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl z-[100]'
@@ -43,7 +62,10 @@ const NavBar = () => {
           />
         </Link>
         <div>
-          <ul className="hidden md:flex uppercase">
+          <ul
+            style={{ color: `${linkColor}` }}
+            className="hidden md:flex uppercase"
+          >
             <Link href="/">
               <li className="ml-10 text-sm hover:border-b">Home</li>
             </Link>
