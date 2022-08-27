@@ -5,7 +5,7 @@ import { FaDiscord, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 
 const Main = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
@@ -18,7 +18,8 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[80%] m-auto">
             Sou um desenvolvedor web front-end especializado na construção e
             design de conteúdos digitais. Atualmente estou focado em construir
-            aplicações web responsivas utilizando o ecossistema React.
+            aplicações web responsivas e experiências que tornem a vida das
+            pessoas mais simples.
           </p>
           <p className="py-4 text-gray-600 max-w-[80%] m-auto">
             Quero desenvolver ideias e torná-las reais, com a possibilidade de
