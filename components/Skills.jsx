@@ -1,9 +1,26 @@
-import Image from 'next/image'
 import React from 'react'
+import {
+  SiAdobeillustrator,
+  SiCss3,
+  SiGit,
+  SiGithub,
+  SiHtml5,
+  SiJavascript,
+  SiMongodb,
+  SiMysql,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiPostgresql,
+  SiReact,
+  SiRedux,
+  SiSass,
+  SiTailwindcss,
+  SiTypescript,
+} from 'react-icons/si'
 
 function Skills() {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2 pt-28">
+    <div id="skills" className="w-full lg:h-screen p-2 pt-20">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#803C90]">
           Habilidades
@@ -13,12 +30,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/html.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiHtml5 size={70} color={'#D84924'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>HTML</h3>
@@ -29,12 +41,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/css.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiCss3 size={70} color={'#0166B1'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>CSS</h3>
@@ -45,12 +52,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/javascript.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiJavascript size={70} color={'#EAD41C'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>JavaScript</h3>
@@ -61,12 +63,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/typescript.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiTypescript size={70} color={'#2E72BC'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>TypeScript</h3>
@@ -77,12 +74,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/node.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiNodedotjs size={70} color={'#5E9254'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Node</h3>
@@ -93,12 +85,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/react.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiReact size={70} color={'#5CCFEE'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>React</h3>
@@ -109,12 +96,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/redux.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiRedux size={70} color={'#7046B2'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Redux</h3>
@@ -125,12 +107,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/nextjs.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiNextdotjs size={70} color={'#000000'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Next.js</h3>
@@ -141,12 +118,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/sass.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiSass size={70} color={'#C26191'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Sass</h3>
@@ -157,12 +129,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/tailwind.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiTailwindcss size={70} color={'#35B3EB'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tailwind</h3>
@@ -173,12 +140,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/mongo.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiMongodb size={70} color={'#449E45'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>MongoDB</h3>
@@ -189,12 +151,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/mysql.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiMysql size={70} color={'#003655'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>MySQL</h3>
@@ -205,12 +162,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/postgres.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiPostgresql size={70} color={'#30628A'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>PostgreSQL</h3>
@@ -221,12 +173,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/git.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiGit size={70} color={'#E44C30'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Git</h3>
@@ -237,12 +184,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/github.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiGithub size={70} color={'#000000'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>GitHub</h3>
@@ -253,12 +195,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/illustrator.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <SiAdobeillustrator size={70} color={'#96450F'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Adobe Illustrator</h3>
