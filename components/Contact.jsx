@@ -1,13 +1,22 @@
 import Link from 'next/link'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaDiscord, FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { FaDiscord, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import Lottie from 'react-lottie'
+import contactAnimation from '../lotties/contactAnimation.json'
 
 const Contact = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: contactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  }
   return (
-    <div id="contact" className="w-full lg:h-screen pt-24">
+    <div id="contact" className="w-full lg:h-screen pt-20">
       <div className="max-w-[1240px] m-auto px-2 w-full">
         <p className="text-xl tracking-widest uppercase text-[#803C90]">
           Contato
@@ -18,11 +27,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                  alt="/"
-                />
+                <Lottie options={defaultOptions} height={200} width={300} />
               </div>
               <div>
                 <h2 className="py-2">Arnaldo Neto</h2>
@@ -35,21 +40,51 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Entre em contato</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaDiscord />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/arnaldo-n3to/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href="https://discordapp.com/users/366398902846619649/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaDiscord />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/acn3to/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/acn3to/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaInstagram />
+                    </div>
+                  </a>
+                  <a
+                    href="mailto:costanetoow@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
