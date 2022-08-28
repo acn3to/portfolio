@@ -28,13 +28,18 @@ const f4life = () => {
           </p>
           <h2 className="py-4">Visão Geral</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Asperiores, odit! Fugit non sunt cumque, debitis earum expedita,
-            quia architecto laborum, aliquid quisquam eligendi odit deserunt ab
-            magnam corrupti dignissimos ex!
+            F4Life Landing Page simula uma página institucional de uma empresa
+            que facilita a locação de imóveis para estudantes universitários. O
+            objetivo desse projeto foi, principalmente, a utilização de Regex
+            para a validação de formulários e a utilização de animações com CSS
+            e JavaScript.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Código</button>
+          <a href="" target="_blank" rel="noreferrer">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a href="" target="_blank" rel="noreferrer">
+            <button className="px-8 py-2 mt-4">Código</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
