@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "12.2.5",
+    "nodemailer": "^6.7.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.2",
     "react-icons": "^4.4.0",
     "react-lottie": "^1.2.3"
   },
