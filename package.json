@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
     "next": "12.2.5",
     "nodemailer": "^6.7.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.34.2",
     "react-icons": "^4.4.0",
-    "react-lottie": "^1.2.3"
+    "react-lottie": "^1.2.3",
+    "react-toastify": "^9.0.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
