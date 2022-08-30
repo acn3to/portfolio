@@ -32,10 +32,18 @@ const dragonball = () => {
             interface de regristro e login de usuários inspirada em Dragon Ball
             Super para pôr em prática animações utilizando CSS + JavaScript.
           </p>
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://acn3to.github.io/registration-login-form/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/acn3to/registration-login-form"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Código</button>
           </a>
         </div>

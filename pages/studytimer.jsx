@@ -33,10 +33,18 @@ const studytimer = () => {
             e pôr em prática os conceitos de Componentização, Props e State em
             React, e a utilização dos hooks useState e useEffect.
           </p>
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://study-timer.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/acn3to/study-timer"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Código</button>
           </a>
         </div>

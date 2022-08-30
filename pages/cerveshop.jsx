@@ -1,8 +1,9 @@
-import React from 'react'
-import cerveshopImg from '../public/assets/projects/cerveshopImg.jpg'
 import Image from 'next/image'
-import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
+import React from 'react'
+import { RiRadioButtonFill } from 'react-icons/ri'
+
+import cerveshopImg from '../public/assets/projects/cerveshopImg.jpg'
 
 const cerveshop = () => {
   return (
@@ -28,17 +29,25 @@ const cerveshop = () => {
           </p>
           <h2 className="py-4">Visão Geral</h2>
           <p>
-            Bem vind@s à Cerve Shop, a simulação de uma loja virtual de
-            cervejas. O objetivo desse projeto foi pôr em prática conceitos
-            sobre como lidar com arquivos estáticos em uma aplicação React,
-            assim como a implementação de rotas, utilizando a biblioteca React
-            Router DOM. Foi utilizado Sass com CSS Modules para a estilização
-            das páginas e componentes.
+            Cerve Shop é a simulação de uma loja virtual de cervejas. O objetivo
+            desse projeto foi pôr em prática conceitos sobre como lidar com
+            arquivos estáticos em uma aplicação React, assim como a
+            implementação de rotas, utilizando a biblioteca React Router DOM.
+            Foi utilizado Sass com CSS Modules para a estilização das páginas e
+            componentes.
           </p>
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://cerve-shop.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/acn3to/cerve-shop"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Código</button>
           </a>
         </div>
