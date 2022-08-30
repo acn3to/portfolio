@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState, useEffect } from 'react'
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaDiscord, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { useRouter } from 'next/router'
+import React, { useEffect, useState } from 'react'
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
+import { FaDiscord, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+
+import navLogo from '../public/assets/navLogo.png'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false)
@@ -55,7 +56,7 @@ const NavBar = () => {
         <Link href="/">
           <Image
             className="cursor-pointer"
-            src="/../public/assets/navLogo.png"
+            src={navLogo}
             alt="/"
             width="60"
             height="65"
@@ -67,19 +68,29 @@ const NavBar = () => {
             className="hidden md:flex uppercase"
           >
             <Link href="/">
-              <li className="ml-10 text-sm hover:border-b">Home</li>
+              <li className="ml-10 text-sm hover:border-b border-[#7F3B8F]">
+                Home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm hover:border-b">Sobre</li>
+              <li className="ml-10 text-sm hover:border-b border-[#7F3B8F]">
+                Sobre
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm hover:border-b">Habilidades</li>
+              <li className="ml-10 text-sm hover:border-b border-[#7F3B8F]">
+                Habilidades
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm hover:border-b">Projetos</li>
+              <li className="ml-10 text-sm hover:border-b border-[#7F3B8F]">
+                Projetos
+              </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm hover:border-b">Contato</li>
+              <li className="ml-10 text-sm hover:border-b border-[#7F3B8F]">
+                Contato
+              </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden cursor-pointer">
@@ -104,7 +115,7 @@ const NavBar = () => {
               <Link href="/#home">
                 <Image
                   className="cursor-pointer"
-                  src="/../public/assets/navLogo.png"
+                  src={navLogo}
                   alt="/"
                   width="50"
                   height="55"
@@ -175,7 +186,7 @@ const NavBar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/acn3to/acn3to/"
+                  href="https://github.com/acn3to/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -183,12 +194,24 @@ const NavBar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
-                </div>
+                <a
+                  href="https://www.instagram.com/acn3to/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaInstagram />
+                  </div>
+                </a>
+                <a
+                  href="mailto:costanetoow@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
