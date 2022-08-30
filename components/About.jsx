@@ -47,7 +47,7 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-gray-400 flex items-center justify-center p-4 hover:scale-110 ease-in-out duration-300">
-          <Lottie options={defaultOptions} height={400} width={400} />
+          <Lottie options={defaultOptions} height={350} width={350} />
         </div>
       </div>
     </div>
