@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import {
   SiAdobeillustrator,
   SiCss3,
+  SiExpress,
   SiGit,
-  SiGithub,
   SiHtml5,
   SiJavascript,
   SiMongodb,
@@ -12,11 +12,11 @@ import {
   SiNodedotjs,
   SiPostgresql,
   SiReact,
-  SiRedux,
   SiSass,
+  SiStyledcomponents,
   SiTailwindcss,
   SiTypescript,
-} from 'react-icons/si'
+} from 'react-icons/si';
 
 function Skills() {
   return (
@@ -74,32 +74,10 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <SiNodedotjs size={70} color={'#5E9254'} />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Node</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
                 <SiReact size={70} color={'#5CCFEE'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>React</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <SiRedux size={70} color={'#7046B2'} />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Redux</h3>
               </div>
             </div>
           </div>
@@ -129,10 +107,43 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+              <SiStyledcomponents size={70} color={'#000000'} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Syled-components</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <SiTailwindcss size={70} color={'#35B3EB'} />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tailwind</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiNodedotjs size={70} color={'#5E9254'} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Node.js</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiExpress size={70} color={'#000000'} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Express</h3>
               </div>
             </div>
           </div>
@@ -158,7 +169,7 @@ function Skills() {
               </div>
             </div>
           </div>
-
+          
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -177,17 +188,6 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Git</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <SiGithub size={70} color={'#000000'} />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>GitHub</h3>
               </div>
             </div>
           </div>
