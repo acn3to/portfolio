@@ -77,7 +77,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Arnaldo Neto</h2>
-                <p>Desenvolvedor Front-End</p>
+                <p>Desenvolvedor Web Full Stack</p>
                 <p className="py-4">
                   Estou disponível para freelances, trabalho em tempo integral
                   ou estágio. Conecte-se às minhas redes e vamos bater um papo.
