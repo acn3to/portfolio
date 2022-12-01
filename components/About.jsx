@@ -24,16 +24,14 @@ const About = () => {
           </p>
           <h2 className="py-4">Quem eu sou</h2>
           <p className="py-2 text-gray-600">
-            Louco por viagens, pai, às vezes DJ, apaixonado por tecnologia e
-            entusiasta das infinitas possibilidades abertas por ela. Desde
-            criança já me aventurava no desenvolvimento de servidores
-            alternativos para jogos de RPG online. Passei a estudar o design e
-            criação de conteúdos digitais em 2011, quando me especializei em Web
-            Design e ilustração vetorial com Adobe Illustrator. Atualmente, com
-            foco em Desenvolvimento Web Front-End, me especializo em React e
-            todo seu ecossistema enquanto me graduo no curso tecnólogo em
-            Análise e Desenvolvimento de Sistemas e no curso técnico em
-            Desenvolvimento de Sistemas.
+            Louco por viagens e trilhas, DJ, apaixonado por tecnologia e entusiasta 
+            de suas infinitas possibilidades. Descobri minha paixão por desenvolvimento ainda
+            adolescente, quando comecei a me aventurar na construção de interfaces e servidores
+            alternativos para jogos de RPG online. Passei a estudar design e desenvolvimento de 
+            conteúdos digitais em 2011, quando me especializei em Web Design e ilustração 
+            vetorial com Adobe Illustrator. Atualmente com foco em Desenvolvimento Web Full Stack 
+            já acumulo experiências, tanto em Front-end quanto em Back-end, através de projetos 
+            desenvolvidos com JavaScript, TypeScript, React, Node.js e SQL.
             <p className="py-2 text-gray-600">
               Quero desenvolver ideias e torná-las reais, com a possibilidade de
               construir aplicações utilizáveis ​​e escaláveis ​​que façam a
