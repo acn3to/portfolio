@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
-import navLogo from '../public/assets/navLogo.png'
+import navLogo from '../public/assets/projects/navLogo.png'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false)
